@@ -153,6 +153,12 @@ z .article__contentImagen {
     grid-template-rows: 1fr;
     height: 275px;
     width: 730px;
+    position: relative;
+    z-index: 1;
+    overflow: inherit;
+    -webkit-box-shadow: 10px 10px 14px -2px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 10px 10px 14px -2px rgba(0, 0, 0, 0.36);
+    box-shadow: 10px 10px 14px -2px rgba(0, 0, 0, 0.36);
   }
 
   .container {
@@ -170,7 +176,7 @@ z .article__contentImagen {
 
   .article__imagen {
     border-radius: 6px 0 0 6px;
-    width: 122%;
+    width: 123%;
   }
 
   .article__title {
@@ -217,7 +223,8 @@ z .article__contentImagen {
     bottom: -15px;
     left: 45%;
   }
-  seccion.article__content {
+  
+  .article__content {
     position: relative;
     z-index: 1;
     overflow: inherit;
