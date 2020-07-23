@@ -169,6 +169,7 @@ z .article__contentImagen {
   }
 
   .article__imagen {
+    border-radius: 6px 0 0 6px;
     width: 122%;
   }
 
@@ -220,5 +221,6 @@ z .article__contentImagen {
     position: relative;
     z-index: 1;
     overflow: inherit;
+    margin: 0;
   }
 }
